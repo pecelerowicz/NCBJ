@@ -11,5 +11,9 @@ public class BracketsTest {
         Assert.assertTrue(Brackets.isCorrect("(((())())())"));
         Assert.assertFalse(Brackets.isCorrect("((((())())())"));
         Assert.assertTrue(Brackets.isCorrect("(a(s(d(f)f)f(f)f)f(f)f)"));
+        Assert.assertTrue(Brackets.isCorrect("()"));
+        Assert.assertFalse(Brackets.isCorrect(")("));
+        Assert.assertTrue(Brackets.isCorrect("((()))"));
+        Assert.assertFalse(Brackets.isCorrect("((())"));
     }
 }
