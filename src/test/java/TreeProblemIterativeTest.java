@@ -2,9 +2,9 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-public class TreeProblemRecursiveTest {
+public class TreeProblemIterativeTest {
 
-    private TreeProblemRecursive solution = new TreeProblemRecursive();
+    private TreeProblemIterative solution = new TreeProblemIterative();
 
     private Tree t1;
     private Tree t2;

@@ -1,10 +1,4 @@
 public class TreeProblemRecursive {
-    public static void main(String[] args) {
-    }
-}
-
-
-class Solution {
 
     private int max = 0;
 
