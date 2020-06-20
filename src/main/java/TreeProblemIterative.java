@@ -4,6 +4,10 @@ import java.util.List;
 
 class TreeProblemIterative {
     public static int solution(Tree t) {
+
+        if(t==null)
+            return 0;
+
         List<Tree> levelTrees = new LinkedList<>();
         List<Integer> lengthLeft = new LinkedList<>();
         List<Integer> lengthRight = new LinkedList<>();
