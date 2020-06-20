@@ -1,14 +1,4 @@
 public class Brackets {
-    public static void main(String[] args) {
-        String s1 = "(a(c)";
-        String s2 = ")b";
-        String s3 = "(b(s))";
-
-        System.out.println(isCorrect(s1));
-        System.out.println(isCorrect(s2));
-        System.out.println(isCorrect(s3));
-    }
-
 
     public static boolean isCorrect(String s) {
 
@@ -26,4 +16,5 @@ public class Brackets {
         }
         return opened==0;
     }
+
 }
