@@ -1,4 +1,4 @@
-public class Brackets {
+public class BracketsProblem {
 
     public static boolean isCorrect(String s) {
 
